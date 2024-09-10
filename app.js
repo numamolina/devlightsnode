@@ -5,7 +5,7 @@ const app = express();
 
 const router = express.Router();
 
-//Rutas CRUD
+//Rutas CRUD:
 
 //Create
 router.post("/", async (req, res) => {
